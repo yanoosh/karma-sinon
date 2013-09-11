@@ -1,0 +1,17 @@
+{
+    "name": "karma-sinon",
+    "description": "Sinon for Karma",
+    "keywords": [
+        "karma",
+        "karma-plugin",
+        "sinon"
+    ],
+    "version": "0.0.1",
+    "main": "./index.js",
+    "license": "MIT",
+    "dependencies": {
+        "sinon": "1.7.x"
+    },
+    "_id": "karma-sinon@0.0.1",
+    "_from": "karma-sinon@*"
+}
