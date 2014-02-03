@@ -26,8 +26,9 @@
             "url": "https://raw.github.com/yanoosh/karma-sinon/master/LICENSE"
         }
     ],
-    "dependencies": {
-        "sinon": "1.7.x"
+    "peerDependencies": {
+      "karma": ">=0.10",
+      "sinon": "*"
     },
     "engines": {
         "node": ">= 0.10.0"
