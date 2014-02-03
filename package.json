@@ -7,7 +7,7 @@
         "sinon",
         "mock"
     ],
-    "version": "1.0.0",
+    "version": "1.8.0",
     "main": "./index.js",
     "author": {
         "name": "Janusz Jablonski",
@@ -27,11 +27,11 @@
         }
     ],
     "dependencies": {
-        "sinon": "1.7.x"
+        "sinon": "1.8.x"
     },
     "engines": {
         "node": ">= 0.10.0"
     },
-    "_id": "karma-sinon@1.0.0",
+    "_id": "karma-sinon@1.8.0",
     "_from": "karma-sinon@*"
 }
