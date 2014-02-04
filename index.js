@@ -5,7 +5,7 @@ var createPattern = function(file) {
 };
 
 var initSinon = function(files) {
-    var sinonPath = path.dirname(require.resolve('sinon') + '/../pkg');
+    var sinonPath = path.dirname(require.resolve('sinon')) + '/../pkg';
     files.unshift(createPattern(sinonPath + '/sinon.js'));
 };
 
