@@ -7,7 +7,7 @@
         "sinon",
         "mock"
     ],
-    "version": "1.8.0",
+    "version": "1.0.1",
     "main": "./index.js",
     "author": {
         "name": "Janusz Jablonski",
@@ -26,12 +26,13 @@
             "url": "https://raw.github.com/yanoosh/karma-sinon/master/LICENSE"
         }
     ],
-    "dependencies": {
-        "sinon": "1.8.x"
+    "peerDependencies": {
+        "karma": ">=0.10",
+        "sinon": "*"
     },
     "engines": {
         "node": ">= 0.10.0"
     },
-    "_id": "karma-sinon@1.8.0",
+    "_id": "karma-sinon@1.0.1",
     "_from": "karma-sinon@*"
 }
