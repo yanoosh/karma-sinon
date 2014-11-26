@@ -3,6 +3,28 @@ karma-sinon
 
 Sinon for karma
 
+Installation
+------------
+
+Install the module via npm
+
+```sh
+$ npm install karma-sinon --save-dev
+```
+
+Add `sinon` to the `frameworks` key in your Karma configuration:
+
+```js
+module.exports = function(config) {
+  'use strict';
+  config.set({
+    #...
+    frameworks: ['jasmine', 'sinon'],
+    #...
+  });
+}
+```
+
 **Example**
 ```javascript
 describe("sinon example test", function () {
