@@ -5,8 +5,8 @@ var createPattern = function(file) {
 };
 
 var initSinon = function(files) {
-    var sinonPath = path.dirname(require.resolve('sinon')) + '/../pkg';
-    files.unshift(createPattern(sinonPath + '/sinon.js'));
+    var sinonPath = path.join(path.dirname(require.resolve('sinon')), '..', 'pkg');
+    files.unshift(createPattern(path.join(sinonPath, 'sinon.js')));
 };
 
 initSinon.$inject = ['config.files'];
