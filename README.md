@@ -18,15 +18,16 @@ Add `sinon` to the `frameworks` key in your Karma configuration:
 module.exports = function(config) {
   'use strict';
   config.set({
-    #...
+    // ...
     frameworks: ['jasmine', 'sinon'],
-    #...
+    // ...
   });
 }
 ```
 
 **Example**
-```javascript
+
+```js
 describe("sinon example test", function () {
     var time2013_10_01;
 
