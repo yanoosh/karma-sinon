@@ -11,7 +11,7 @@
     "main": "./index.js",
     "author": {
         "name": "Janusz Jablonski",
-        "email": "janusz.jablonski+karma-sinon@gmail.com"
+        "email": "janusz.jablonski.pl+karma-sinon@gmail.com"
     },
     "repository": {
         "type": "git",
